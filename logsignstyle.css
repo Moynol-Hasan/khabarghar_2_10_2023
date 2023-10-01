@@ -1,0 +1,590 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+ 
+ }
+
+ h1{
+  font-size: 35px;
+ }
+
+ body{
+
+    background-color: #F3EEF0; 
+   
+}
+
+.navbar-container{
+   top: 0;
+   position: sticky;
+   background-color: #9C9BE5;
+   z-index: 2;
+}
+
+.nav-link
+{
+   font-size: 18px;
+   font-weight: 600;
+}
+
+.brand-text
+{
+   font-weight: bolder;
+   font-size: 30px;
+}
+
+ .LOGO
+ {
+    display: inline-block;
+    width: 40%;
+    margin-top: 25px;
+    float: left;
+ }
+
+.LOGIN
+ {
+    display: inline-block;
+    width: 50%;
+    margin-top: 25px;
+    float: right;
+ }
+
+
+
+
+ .login-container {
+    float:right;
+  height: 450px;
+  width: 450px;
+  margin-right: 12%;
+  margin-top: 3%;
+  border-radius: 10%;
+  background-color: #C6D1F9;
+  box-shadow: 8px 8px 20px rgb(128, 128, 128);
+  position: relative;
+  overflow: hidden;
+}
+
+.btn {
+  height: 60px;
+  width: 300px;
+  margin: 20px auto;
+  box-shadow: 10px 10px 30px rgb(206, 173, 243);
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.login,
+.signup {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  position: relative;
+  cursor: pointer;
+}
+
+
+
+.form-section {
+  height: 500px;
+  width: 1000px;
+  padding: 20px 0;
+  display: flex;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+  left: 0px;
+}
+
+.form-section-move {
+  left: -500px;
+}
+
+.login-box {
+  height: 40%;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 40px;
+}
+
+.login-box {
+  gap: 20px;
+}
+
+.ele {
+  height: 60px;
+  width: 400px;
+  outline: none;
+  border: none;
+  color: rgb(77, 77, 77);
+  background-color: rgb(240, 240, 240);
+  border-radius: 50px;
+  padding-left: 30px;
+  font-size: 18px;
+}
+
+.clkbtn {
+  height: 60px;
+  width: 150px;
+  border-radius: 50px;
+  background-color: #9C9BE5;
+  font-size: 22px;
+  border: none;
+  cursor: pointer;
+}
+
+h5{
+    text-align:center;
+    padding: 12px;
+}
+
+.forgot {
+ font-size: 12px;
+ padding: 10px;
+ text-align: right;
+}
+
+
+.logbtn {
+  height: 40%;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 10px;
+}
+
+.logbtn ul{
+  display: flex;
+  margin: 0 10px;
+}
+
+.logbtn ul li{
+  list-style: none;
+  margin: 0 10px;
+  font-size: 35px;
+}
+
+.logbtn h6{
+  font-size: 12px;
+  padding: 20px;
+}
+
+.fa-facebook{
+  color:rgb(49, 49, 197);
+}
+
+.fa-instagram{
+  color: #e0382c;
+}
+
+.fa-twitter{
+  color: rgb(56, 137, 243);
+}
+
+
+/* signup */
+
+.content-img
+{
+  position: absolute;
+  height: 84%;
+  width: 100%;
+  background-image: url("images/back.PNG");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+
+.container1 {
+margin: auto;
+height: 450px;
+width: 450px;
+margin-top: 3%;
+border-radius: 10%;
+background-color: #C6D1F9;
+box-shadow: 8px 8px 20px rgb(128, 128, 128);
+position: relative;
+overflow: hidden;
+}
+
+.signup-box {
+  height: 90%;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 30px;
+}
+
+.signup-box {
+  gap: 10px;
+}
+
+.successfull{
+  display: inline-block;
+  font-size: 25px;
+  margin-left: 400px;
+  margin-top: 180px;
+  padding: 70px 100px 50px; 
+  border: 3px solid #6769BF;
+  border-radius: 10px;
+}
+
+.reg a{
+  text-decoration: none;
+  color:white;
+}
+
+.reg{
+  background-color: #6769BF;
+  padding: 10px 30px;
+  border-radius: 10px;
+  margin-left: 70px;
+  margin-top: 20px;
+  border: 2px solid white;
+}
+
+
+
+/* All about admin dashboard */
+
+.admin-header{
+  text-align: center;
+  background-color: #6769BF;
+  height: 90px;
+  padding: 20px;
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.6);
+}
+
+.dashboard{
+  display: inline;
+  width: 85%;
+  float: right;
+  
+  /* border: 2px solid black; */
+  overflow: auto;
+}
+
+.sidebar{
+  display: inline-block;
+  width:15%;
+  height: 525px;
+  background-color: white;
+  /* border: 2px solid black; */
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.6);
+  overflow: auto;
+}
+
+
+
+.inventory{
+  padding:15px 40px;
+  margin: 40px 25px 10px;
+  border-radius: 5px;
+  background-color: white;
+  border: 2px solid #6769BF;
+  font-size: 15px;
+}
+.inventory a{
+  text-decoration: none;
+  color: black;
+}
+
+.inventory:hover{
+  background-color:#6769BF;
+  color:white;
+  border:2px solid white;
+}
+
+.inventory a:hover{
+  color:white;
+}
+
+.salebar{
+  padding:15px 53px;
+  margin: 0px 25px ;
+  border-radius: 5px;
+  background-color: white;
+  border: 2px solid #6769BF;
+  font-size: 15px;
+}
+.salebar a{
+  text-decoration: none;
+  color: black;
+}
+
+.salebar:hover{
+  background-color:#6769BF;
+  color:white;
+  border:2px solid white;
+}
+
+.salebar a:hover{
+  color:white;
+}
+
+.orderbar{
+  padding:15px 49px;
+  margin: 10px 25px ;
+  border-radius: 5px;
+  background-color: white;
+  border: 2px solid #6769BF;
+  font-size: 15px;
+}
+.orderbar a{
+  text-decoration: none;
+  color: black;
+}
+
+.orderbar:hover{
+  background-color:#6769BF;
+  color:white;
+  border:2px solid white;
+}
+
+.orderbar a:hover{
+  color:white;
+}
+
+.userbar{
+  padding:15px 53px;
+  margin: 0px 25px ;
+  border-radius: 5px;
+  background-color: white;
+  border: 2px solid #6769BF;
+  font-size: 15px;
+}
+.userbar a{
+  text-decoration: none;
+  color: black;
+}
+
+.userbar:hover{
+  background-color:#6769BF;
+  color:white;
+  border:2px solid white;
+}
+
+.userbar a:hover{
+  color:white;
+}
+
+
+.profilebar{
+  padding:15px 50px;
+  margin: 10px 25px ;
+  border-radius: 5px;
+  background-color: white;
+  border: 2px solid #6769BF;
+  font-size: 15px;
+}
+.profilebar a{
+  text-decoration: none;
+  color: black;
+}
+
+.profilebar:hover{
+  background-color:#6769BF;
+  color:white;
+  border:2px solid white;
+}
+
+.profilebar a:hover{
+  color:white;
+}
+
+.logoutbar{
+  padding:15px 45px;
+  margin: 0px 25px ;
+  border-radius: 5px;
+  background-color: white;
+  border: 2px solid #6769BF;
+  font-size: 15px;
+}
+.logoutbar a{
+  text-decoration: none;
+  color: black;
+}
+
+.logoutbar:hover{
+  background-color:#6769BF;
+  color:white;
+  border:2px solid white;
+}
+
+.logoutbar a:hover{
+  color:white;
+}
+
+
+.overview{
+  margin: 40px 80px 0px 50px;
+  /* height: 200px; */
+  /* text-align: left; */
+  font-family: 'Nunito',sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  /* border: 2px solid black; */
+}
+
+.another-overview{
+  margin: 10px 80px 0px 50px;
+  /* height: 200px; */
+  /* text-align: left; */
+  font-family: 'Nunito',sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.properties{
+  /* display: inline;
+  margin: 50px 150px; */
+  /* padding: 50px; */
+  margin: 20px 40px 0px 40px;
+  height: 180px;
+  text-align: center;
+  /* border: 2px solid black; */
+}
+
+.another-properties{
+  /* display: inline;
+  margin: 50px 150px; */
+  /* padding: 50px; */
+  margin: 0px 40px 0px 40px;
+  height: 180px;
+  text-align: center;
+  /* border: 2px solid black; */
+}
+
+.total-sales{
+  display: inline-flex;
+  align-items: center;
+  margin: 20px;
+  padding: 28px;
+  width: 20%;
+  /* background-color: #6769BF; */
+  background-image: linear-gradient(to right,
+  rgb(205, 245, 255),
+  rgb(56, 194, 175));
+  border-radius: 20px;
+  /* border: 2px solid black; */
+}
+
+.total-sales:hover{
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.6);
+}
+
+.revenue:hover{
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.6);
+}
+
+.cost:hover{
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.6);
+}
+
+.profit:hover{
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.6);
+}
+
+.revenue{
+  display: inline-flex;
+  align-items: center;
+   margin: 20px;
+  padding: 30px;
+  width: 20%;
+  /* background-color: #C6D1F9; */
+  background-image: linear-gradient(to right,
+  rgb(245, 198, 221),
+  rgb(241, 113, 141));
+  border-radius: 20px;
+  /* border: 2px solid black; */
+}
+
+.cost{
+  display: inline-flex;
+  align-items: center;
+  margin: 20px;
+  padding: 30px;
+  width: 20%;
+  /* background-color: aqua; */
+  background-image: linear-gradient(to right,
+  rgb(186, 185, 240),
+  rgb(132, 111, 250));
+  border-radius: 20px;
+  /* border: 2px solid black; */
+  /* padding: 10px; */
+}
+
+.profit{
+  display: inline-flex;
+  align-items: center;
+  width: 20%;
+  margin: 20px;
+  padding: 30px;
+  /* background-color: red; */
+  background-image: linear-gradient(to right,
+  rgb(255, 195, 110),
+  rgb(255, 146, 91));
+  border-radius: 20px;
+  /* border: 2px solid black; */
+  /* padding: 50px; */
+}
+
+
+
+.total-sales1{
+  display: inline-block;
+  margin: 20px;
+  padding: 50px;
+  width: 20%;
+  /* background-color: #6769BF; */
+  background-image: linear-gradient(to right,
+  rgb(205, 245, 255),
+  rgb(56, 194, 175));
+  border-radius: 20px;
+  /* border: 2px solid black; */
+}
+
+.uni-img
+{
+  /* display: 30%; */
+  display: inline;
+  /* border: 2px solid black; */
+}
+
+.uni-text{
+  /* width: 60%; */
+  /* margin-top:; */
+  /* border: 2px solid black; */
+  float: right;
+  padding-left: 20px;
+  /* padding-left: 20px; */
+}
+
+.uni-img img{
+  border-radius: 10px;
+}
+
+.uni-textt{
+  /* width: 60%; */
+  /* margin-top:; */
+  /* border: 2px solid black; */
+  float: right;
+  padding-left: 30px;
+  /* padding-left: 20px; */
+}
